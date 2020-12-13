@@ -119,15 +119,6 @@ header .hero-image img:hover{
 	transform: rotate(-6deg);
 }
 
-header .hero-image .photo-bg{
-	position: absolute;
-	width: 397.32px;
-	height: 397.32px;
-	top: 200px;
-    left: 850px;
-	background: #CF3E10;
-	transform: rotate(7deg);
-}
 
 .search-box {
 	width: 1200px;
@@ -145,7 +136,7 @@ header .hero-image .photo-bg{
   
   .search-box input {
 	background: #fffffa;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 4px 8px rgba(158, 36, 36, 0.15);
 	border-radius: 0px 0px 8px 8px;
   
 	font-size: 24px;
