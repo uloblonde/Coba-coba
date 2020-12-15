@@ -199,17 +199,27 @@ header .hero-image img:hover{
 	position: relative;
 	width: 700px;
 	height: 300px;
-	margin: 240px auto;
+	margin: 100px auto;
 	
+}
+
+.second-container h1{
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .second-container .box-content{
 	position: relative;
 	width: calc(250px - 30px);
 	height: calc(250px - 30px);
-	background: #ff00ff;
+	background: #000000;
 	float: left;
 	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	
 
 }
 
