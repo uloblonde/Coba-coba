@@ -119,15 +119,6 @@ header .hero-image img:hover{
 	transform: rotate(-6deg);
 }
 
-header .hero-image .photo-bg{
-	position: absolute;
-	width: 397.32px;
-	height: 397.32px;
-	top: 200px;
-    left: 850px;
-	background: #CF3E10;
-	transform: rotate(7deg);
-}
 
 .search-box {
 	width: 1200px;
@@ -201,7 +192,27 @@ header .hero-image .photo-bg{
 /*Hidden Item*/
 
 .search-box{
-	/*display: none;
+	/*display: none;*/
 }
+
+.second-container{
+	position: relative;
+	width: 700px;
+	height: 300px;
+	margin: 240px auto;
+	
+}
+
+.second-container .box-content{
+	position: relative;
+	width: calc(250px - 30px);
+	height: calc(250px - 30px);
+	background: #ff00ff;
+	float: left;
+	margin: 15px;
+
+}
+
+
 
 
