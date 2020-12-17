@@ -225,3 +225,20 @@ header .hero-image img:hover{
 
 
 
+.second-second-container{
+	position: relative;
+	width: 700px;
+	height: 600px;
+	margin: 100px auto;
+}
+
+.second-second-container h1{
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
