@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- End Css -->
+
+    <!-- Fonts -->
+    <script src="https://use.fontawesome.com/19a538989c.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- End Fonts -->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <div class="text-box">
+            <h1>Ini Robert Ganteng</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Unde sed veritatis assumenda ducimus est sequi alias earum nemo, recusandae rerum!</p>
+            <a href="">Come Join Us</a>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about">
+        <h1>Hello Nib.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sit nemo nesciunt dolorem sunt provident quos asperiores quis perspiciatis molestiae!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Easy</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error, pariatur ratione 
+                    praesentium esse porro ut? Veritatis architecto minus repellendus beatae excepturi 
+                    rem alias voluptatum tempora quod? Nam, quasi iure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Medium</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error, pariatur ratione 
+                    praesentium esse porro ut? Veritatis architecto minus repellendus beatae excepturi 
+                    rem alias voluptatum tempora quod? Nam, quasi iure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Hard</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error, pariatur ratione 
+                    praesentium esse porro ut? Veritatis architecto minus repellendus beatae excepturi 
+                    rem alias voluptatum tempora quod? Nam, quasi iure.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right="0";
+    }
+    function hideMenu(){
+        navLink.style.right="-200px";
+    }
+</script>
+    
+</body>
+</html>

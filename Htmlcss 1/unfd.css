@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    background-color: #fff;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.nav img{
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.nav-links ul li::after{
+    width: 0%;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: auto;
+    background-color: #f44336;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.homepage{
+    background-color: #033153;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+.text-kenal{
+    padding-top: 13%;
+    padding-left: 6%;
+    position: relative;
+}
+.text-kenal h1{
+ color: #fff;
+ font-size: 28pt;
+}
+.text-kenal a{
+    font-weight: 500;
+    padding: 6px;
+    background-color: #FFA500;
+    border: 1;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    text-decoration: none;
+    color: black;
+}
+.text-kenal a:hover{
+    color: #fff;
+    background-color: #00ff62;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,2);
+}
+.gambar-home{
+    flex: 1;
+    text-align: right;
+    padding-right: 6%;
+    padding-top: 5%;
+}
+.gambar-home img{
+    width: 550px;
+}
+.footer{
+    padding: 0% 6%;
+    background-color: #001a2e;
+    position: relative;
+    align-items: center;
+}
+.top-footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.top-footer h3{
+    padding-bottom: 5px;
+}
+.top-footer ul li{
+    list-style: none;
+    padding: 1% 2%;
+}
+.top-footer ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+}
+.top-footer ul li::after{
+    width: 0%;
+    height: 2px;
+    content: "";
+    display: block;
+    background-color: #f44336;
+    transition: 0.5s;
+}
+.top-footer ul li:hover::after{
+    width: 40%;
+}
+.social-footer{
+    width: 15%;
+}
+.nav-footer{
+    width: 15%;
+}
+.alamat-footer{
+    width: 30%;
+    color: rgba(255, 255, 255, 0.664);
+}
+.alamat-footer p{
+    font-size: 10pt;
+    padding-left: 5px;
+}
+.alamat-footer img{
+    width: 250px;
+    
+}
+.bottom-footer{
+    background-color: #000e1a;
+    height: 30px;
+    align-items: center;
+    padding: 1% 6%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 9pt;
+}
+.terms-footer ul li{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+}
+.terms-footer ul li a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.664);
+}
+.terms-footer ul li a:hover{
+    color: aqua;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,2);
+}
