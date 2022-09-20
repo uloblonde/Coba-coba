@@ -96,7 +96,7 @@ img{
     margin: 0 0 1rem;
 }
 .showcase-content input{
-    float: right;
+    float: left;
 }
 .showcase-content input[type=text]{
     padding: 20px 0px 20px;
@@ -138,4 +138,54 @@ img{
     font-size: 2rem;
     padding: 2rem 2.5rem;
     text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 700px) {
+    .showcase{    
+        width: 95%;
+        height: 63vh;
+    }
+    .showcase-top{
+        height: 50px;
+    }
+    .showcase-top img{
+        width: 90px;
+        position: absolute;
+        top: 80%;
+        left: 20%; 
+    }
+    .showcase-content{
+        margin-right: 2rem;
+        height: 100px;
+        margin-top: 9rem;    
+    }
+    .showcase-content h1{
+        font-weight: 700;
+        font-size: 18pt;
+        line-height: 2rem;
+        margin: 0 0 0.7rem;
+    }
+    .showcase-content h2{
+        font-weight: 500;
+        font-size: 12pt;
+        line-height: 2rem;
+        margin: 0 0 0.7rem;
+    }
+    .showcase-content h3{
+        margin-left: 6%;
+        margin-right: 6%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 13pt;
+        line-height: 1rem;
+        margin: 2 0 1rem;
+    }
+    .showcase-content input{
+        float: none;
+    }
+    .showcase-contentsec{
+       
+    }
+
 }
