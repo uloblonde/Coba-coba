@@ -13,10 +13,12 @@
 }
 .nav img{
     width: 200px;
+    cursor: pointer;
 }
 .nav-links{
     flex: 1;
     text-align: right;
+    cursor: pointer;
 }
 .nav-links ul li{
     display: inline-block;
@@ -82,6 +84,43 @@
 .gambar-home img{
     width: 550px;
 }
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #033153;
+}
+.container{
+    padding: 0% 6%;
+    padding-top: 10%;
+    padding-bottom: 18%;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: justify;
+}
+.tulisan-about{
+    margin-right: 120px;
+    color: #fff;
+}
+
+/* ID */
+#tab-1-content,
+#tab-2-content{
+    display: none;
+    opacity: 0;
+}
+.show {
+	display:  flex!important;
+	opacity: 1 !important;
+	transition: all 1000 ease-in;
+}
+
+
+
+
 .footer{
     padding: 0% 6%;
     background-color: #001a2e;
@@ -142,7 +181,7 @@
     padding: 1% 6%;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 9pt;
 }
 .terms-footer ul li{
